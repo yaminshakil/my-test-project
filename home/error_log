@@ -1,0 +1,5 @@
+[28-Jan-2025 19:14:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/unipexel/public_html/mugdho/home/register.php:3
+Stack trace:
+#0 /home/unipexel/public_html/mugdho/home/register.php(3): mysqli_connect('localhost', 'root', '', 'php_ecom')
+#1 {main}
+  thrown in /home/unipexel/public_html/mugdho/home/register.php on line 3
